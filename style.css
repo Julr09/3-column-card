@@ -93,6 +93,10 @@ img {
     .col p {
         font-size: 24px;
     }
+
+    .col h1 {
+        font-size: 3rem;
+    }
 }
 
 @media (min-width: 932px) {
@@ -111,6 +115,10 @@ img {
 
     .three {
         border-radius: 0 7px 7px 0;
+    }
+
+    .col h1 {
+        font-size: 40px;
     }
 
     .col p {
