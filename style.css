@@ -29,6 +29,8 @@ img {
 }
 
 .col {
+    display: flex;
+    flex-direction: column;
     padding: 2em;
 }
 
@@ -60,36 +62,39 @@ img {
     margin-bottom: 2.5em;
 }
 
-.col button {
+.col .a {
+    margin-top: auto;
+}
+
+.col a {
     background-color: hsl(0, 0%, 95%);
     border: none;
     border-radius: 40px;
     cursor: pointer;
     font-weight: 600;
-    margin: 0;
     padding: 1em 1.7em;
     text-decoration: none;
 }
 
-.one button {
+.one a {
     color: hsl(31, 77%, 52%);
 }
 
-.two button {
+.two a {
     color: hsl(184, 100%, 22%);
 }
 
-.three button {
+.three a {
     color: hsl(179, 100%, 13%);
 }
 
-.col button:hover {
+.col a:hover {
     background-color: transparent;
     color:  hsl(0, 0%, 95%);
     outline: 3px white solid;
 }
 
-.col button:active {
+.col a:active {
     border: none;
     border-radius: 40px;
 }
@@ -104,7 +109,7 @@ img {
     }
 }
 
-@media (min-width: 932px) {
+@media (min-width: 1050px) {
     .container {
         align-items: center;
         min-height: 100vh;
