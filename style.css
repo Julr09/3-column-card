@@ -89,6 +89,9 @@ img {
     outline: 3px white solid;
 }
 
+.col button:active {
+    border: none;
+}
 
 @media (min-width: 646px) {
     .col p {
