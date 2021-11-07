@@ -64,6 +64,7 @@ img {
     background-color: hsl(0, 0%, 95%);
     border: none;
     border-radius: 40px;
+    cursor: pointer;
     font-weight: 600;
     margin: 0;
     padding: 1em 1.7em;
