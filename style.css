@@ -91,6 +91,7 @@ img {
 
 .col button:active {
     border: none;
+    border-radius: 40px;
 }
 
 @media (min-width: 646px) {
